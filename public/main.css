@@ -1,0 +1,36 @@
+.background{
+    background: linear-gradient(228deg, #f04af3, #1f0dc3, #db062e);
+    background-size: 600% 600%;
+
+    -webkit-animation: 3s ease infinite;
+    -moz-animation: 3s ease infinite;
+    animation: 3s ease infinite;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Add this to your main.css file or style section */
+input.form-control::placeholder {
+    color: white; /* Replace #yourDesiredColor with the desired color code */
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+input.form-control:focus::placeholder {
+    color: transparent;
+}
+.transparent{
+    background-color: transparent;
+}
+h1{
+    font-size: 4.5rem;
+    width: fit-content;
+}
+input.form-control:focus{
+    background-color: transparent;
+}
